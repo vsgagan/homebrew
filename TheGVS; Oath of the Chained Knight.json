@@ -1,0 +1,280 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GVSOoCK",
+				"abbreviation": "OoCK",
+				"full": "Oath of the Chained Knight",
+				"authors": [
+					"TheGVS"
+				],
+				"convertedBy": [
+					"TheGVS"
+				],
+				"version": "2023/02/16",
+				"url": "https://www.gmbinder.com/share/-NLjRq-cFwZ77q0iKXEc"
+			}
+		],
+		"dateAdded": 1602882989,
+		"dateLastModified": 1618329116,
+		"_dateLastModifiedHash": "968aa62051"
+	},
+	"subclass": [
+		{
+			"name": "Oath of the Chained Knight",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"shortName": "Chained Knight",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"compelled duel",
+							"healing word"
+						],
+						"5": [
+							"spiritual weapon",
+							"blur"
+						],
+						"9": [
+							"thunder step|XGE",
+							"fear"
+						],
+						"13": [
+							"stoneskin",
+							"freedom of movement"
+						],
+						"17": [
+							"hold monster",
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Oath of the Chained Knight|Paladin||Chained Knight|GVSOoCK|3",
+				"Aura of the Protector|Paladin||Chained Knight|GVSOoCK|7",
+				"Soul Chain Improvement|Paladin||Chained Knight|GVSOoCK|15",
+				"Avatar of Protection|Paladin||Chained Knight|GVSOoCK|20"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Oath of the Chained Knight",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 3,
+			"entries": [
+				"The oath of the Chains calls to the paladins who want to protect others no matter the cost. Also called as Chained Knights, these paladins bind their souls in service of a Celestial, Fey or Fiend to gain the powers to protect their allies and loved ones.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Chained Knight|Paladin||Chained Knight|GVSOoCK|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||Chained Knight|GVSOoCK|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Master's Speech|Paladin||Chained Knight|GVSOoCK|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Soul Chains|Paladin||Chained Knight|GVSOoCK|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Silver Tounged|Paladin||Chained Knight|GVSOoCK|3"
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Chained Knight",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				{
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Courage",
+							"entries": [
+								"Never be afraid to stand all before the enemy, you are the shield that protects the others."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Honour",
+							"entries": [
+								"A true paladin never goes back on his word, a promise is always set in stone."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tenacity",
+							"entries": [
+								"The shield that protects can not be weak, not matter what happens, be the last one to fall."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Chained Knight Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell compelled duel}, {@spell healing word}"
+						],
+						[
+							"5th",
+							"{@spell spiritual weapon}, {@spell blur}"
+						],
+						[
+							"9th",
+							"{@spell thunder step|XGE}, {@spell fear}"
+						],
+						[
+							"13th",
+							"{@spell stoneskin}, {@spell freedom of movement}"
+						],
+						[
+							"17th",
+							"{@spell hold monster}, {@spell insect plague}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Master's Speech",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you take this oath at 3rd level, you gain the ability to speak in your master's language. You gain proficiency in Abyssal, Celestial, Infernal or Sylvan. Further you can double your proficiency bonus for Charisma checks in the chosen language."
+			]
+		},
+		{
+			"name": "Channel Divinity: Soul Chains",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You utter the tongue of your patron causing ethereal chains to spring out of your body and impale and bind the bodies of your foes to you. As a bonus action you can bind a number of creatures equal to your proficiency bonus to yourself that are within 30 feet of you. Bound creatures cannot willingly move more than 15 feet away from you and have disadvantage attacking anyone other than you. You have advantage on the first attack on the bound enemies on each of your turn, as long as the chains are active.",
+				"You can unbind any number of creatures as a bonus action."
+			]
+		},
+		{
+			"name": "Channel Divinity: Silver Tounged",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Silver Tongued. You can empower your speech with the brilliance or ferocity of your patron. As a bonus action you can grant yourself a +5 to all charisma checks for the next 1 minute."
+			]
+		},
+		{
+			"name": "Aura of the Protector",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, your imposing presence can protect you allies from incoming attacks, when any ally within 5 feet of you is targeted with a ranged or melee attack, you can use your reaction to impose disadvantage on the attack roll.",
+				"When you reach 18th level in this class, the range of the aura increases to 15 feet."
+			]
+		},
+		{
+			"name": "Soul Chain Improvement",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, your soul chains are enhanced. Whenever a creature damages you, that creature takes radiant/necrotic damage equal to your Charisma modifier (minimum of 1). Additionally you have advantage on attack rolls against bound creatures."
+			]
+		},
+		{
+			"name": "Avatar of Protection",
+			"source": "GVSOoCK",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Chained Knight",
+			"subclassSource": "GVSOoCK",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, you gain the ability to empower yourself and become the personification of your tenets. As an action, you can magically become an avatar of protection, gaining the following benefits for 1 minute:",
+				{
+					"type": "list",
+					"items": [
+						"You have resistance to all damage.",
+						"When you take the Attack action on your turn, you can make one additional attack as part of that action.",
+						"Your Armour Class increases by 2."
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	]
+}
